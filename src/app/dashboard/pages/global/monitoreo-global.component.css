@@ -1,5 +1,7 @@
 .layout{
   width: 100%;
 }
-
+.container{
+  background-color: var(--bg-secondary-div);
+}
 

@@ -19,3 +19,16 @@ li{
   margin-bottom: 50px;
 }
 
+li{
+  cursor: pointer;
+  list-style: none;
+}
+.svg{
+  fill: gray;
+  width: 30px;
+  height: auto;
+}
+.active{
+  fill: var(--bg-primary);
+}
+

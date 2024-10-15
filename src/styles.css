@@ -3,11 +3,12 @@
 :root{
   --bg-primary:#05979c;
   --bg-primary-hover:#0c5e63;
-  --bg-secondary:#effefc;
+  --bg-primary-hover-secondary:#93fcf4;
+  --bg-secondary:#f4f9f8;
   --bg-secondary-div:#fdffff;
   --text-color-primary:#f5f5f5;
   --text-color-secondary:#181b1b;
-  --text-color-label-primary:#80908d;
+  --text-color-label-primary:rgba(0, 0, 0, 0.50);
   --text-color-a-primary:#05979c;
   --text-color-error-primary:#a20698;
 }
@@ -64,3 +65,45 @@ li{
 box-shadow: 0px 0px 15px -7px rgba(5, 5, 6, 1); */
 border-radius: 15px;
 }
+button {
+  /* Quitar decoraciones y estilos predeterminados */
+  all: unset;
+
+  /* O, si no quieres resetear todos los estilos, puedes hacerlo manualmente */
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none;
+
+  /* Quitar animaciones y transiciones */
+  animation: none;
+  transition: none;
+
+  /* Personalizar si deseas agregar tus propios estilos mínimos */
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.button{
+  background-color: var(--bg-secondary-div);
+  padding: 10px 30px;
+  border: 2px solid;
+  border-color: var(--text-color-label-primary);
+  border-radius: 10px;
+  transition: all 250ms;
+}
+.button:hover,.button:focus{
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  transform: translateY(-1px);
+}
+.button:active{
+  background-color: #F0F0F1;
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+ color: rgba(0, 0, 0, 0.65);
+ transform: translateY(0);
+}
+
