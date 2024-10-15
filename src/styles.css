@@ -2,8 +2,10 @@
 
 :root{
   --bg-primary:#05979c;
-  --bg-secondary:#e5e4e2;
-  --text-color-primary:#f2f7f5;
+  --bg-primary-hover:#0c5e63;
+  --bg-secondary:#effefc;
+  --bg-secondary-div:#fdffff;
+  --text-color-primary:#f5f5f5;
   --text-color-secondary:#181b1b;
   --text-color-label-primary:#80908d;
   --text-color-a-primary:#05979c;
@@ -25,6 +27,7 @@ h4,h1,h2,h3{
   margin: 0;
   padding: 0;
 }
+
 p{
   margin: 0;
   padding: 0;
@@ -51,4 +54,13 @@ h4{
 p{
   font-weight: 500;
 }
+li{
+  list-style: none;
+}
 
+.div-container{
+/* -webkit-box-shadow: 0px 0px 15px -7px rgba(5, 5, 6, 1);
+-moz-box-shadow: 0px 0px 15px -7px rgba(5, 5, 6, 1);
+box-shadow: 0px 0px 15px -7px rgba(5, 5, 6, 1); */
+border-radius: 15px;
+}

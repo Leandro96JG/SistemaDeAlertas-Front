@@ -1,0 +1,21 @@
+nav{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 50px;
+}
+

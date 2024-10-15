@@ -6,6 +6,7 @@ h1,h2,h3,h4,p{
 .text-error{
   color: var(--text-color-error-primary);
   font-weight: 600;
+  font-size: 14px;
 }
 
 
@@ -33,6 +34,12 @@ h1,h2,h3,h4,p{
    flex-direction: column;
    gap: 10px;
    margin-bottom: 20px;
+  }
+
+  .subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   form{
@@ -103,6 +110,11 @@ h1,h2,h3,h4,p{
    a{
     text-decoration: none;
     color: var(--text-color-a-primary);
+    font-size: 18px;
+    font-weight: 300;
+   }
+   a:hover{
+    color: var(--bg-primary-hover);
    }
 
    button{
@@ -113,6 +125,15 @@ h1,h2,h3,h4,p{
     color: var(--text-color-primary);
     outline: none;
     border-radius: 10px;
+   }
+
+   button:hover{
+    background-color: var(--bg-primary-hover);
+   }
+
+   .footer-a{
+    font-size: 16px;
+    font-weight:500;
    }
 
 }
