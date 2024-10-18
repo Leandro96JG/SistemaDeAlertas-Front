@@ -1,0 +1,9 @@
+
+<img (click)="activeOpcion()" class="rotate" src="icons/language.svg" alt="language">
+
+<div *ngIf="lenguageBottom" class="options">
+
+  <div (click)="translateText('es')" class="lenguage"> {{'global.leng.es' | translate}} </div>
+  <div (click)="translateText('en')" class="lenguage"> {{'global.leng.en' | translate}} </div>
+
+</div>

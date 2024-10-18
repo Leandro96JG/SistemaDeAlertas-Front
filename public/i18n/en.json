@@ -1,0 +1,25 @@
+{
+  "global":{
+    "title":"Global Monitorning",
+    "alert":{
+      "ok":"Check OK",
+      "warning":"Alert yellows",
+      "error":"Alert reds",
+      "sensor":"disable sensors"
+    },
+    "plant":"Plants",
+    "new":"+ New plant",
+    "table":{
+      "country":"Country",
+      "name_plant":"Plant name",
+      "readings":"Readings",
+      "yellows":"Alert yellows",
+      "reds":"Alert reds",
+      "action":"Action"
+    },
+    "leng":{
+      "es":"Spanish",
+      "en":"English"
+    }
+  }
+}

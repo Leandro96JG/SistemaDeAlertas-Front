@@ -1,0 +1,19 @@
+.options{
+  position: absolute;
+  background-color: white;
+  left: -90px;
+  top: 30px;
+}
+.lenguage{
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.lenguage:hover{
+  background-color: var(--bg-secondary-hover);
+}
+
+
+.rotate:hover{
+  animation: rotate 1s;
+}

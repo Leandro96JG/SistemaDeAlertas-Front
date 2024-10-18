@@ -1,0 +1,19 @@
+
+.accion{
+  position: absolute;
+  width: 150px;
+  background-color: #fff;
+  color: var(--text-color-label-primary);
+  background-color: var(--bg-secondary);
+  left: -130px;
+  top: 30px;
+}
+
+.opcion{
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.opcion:hover{
+  background-color: var(--bg-secondary-hover);
+}

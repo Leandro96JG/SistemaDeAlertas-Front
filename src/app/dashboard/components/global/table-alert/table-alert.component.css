@@ -1,25 +1,35 @@
 section{
-  background-color: var(--bg-secondary);
+  padding: 20px;
+  background-color: white;
 }
 
 .table{
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.row{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  height: auto;
 }
 
 .header{
   background-color: white;
   font-size: 18px;
   font-weight: 700;
-  color: var(--text-color-label-primary);
+  color: #aacfc5;
 }
+
+.body-container{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-secondary);
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5px 10px 0 5px;
+}
+
 
 .body{
   background-color: white;
@@ -32,9 +42,7 @@ section{
   padding: 10px;
 }
 
-
 .acciones{
-
+  position: relative;
 }
-
 

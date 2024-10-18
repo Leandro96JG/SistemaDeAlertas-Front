@@ -1,0 +1,25 @@
+{
+  "global":{
+    "title":"Monitoreo Global",
+    "alert":{
+      "ok":"Lecturas OK",
+      "warning":"Alertas Amarillas",
+      "error":"Alertas Rojas",
+      "sensor":"Sensores Deshabilitados"
+    },
+    "plant":"Plantas",
+    "new":"+ Crear nueva planta",
+    "table":{
+      "country":"Pais",
+      "name_plant":"Nombre de la planta",
+      "readings":"Lecturas",
+      "yellows":"Alertas Amarillas",
+      "reds":"Alertas Rojas",
+      "action":"Acciones"
+    },
+    "leng":{
+      "es":"Español",
+      "en":"Ingles"
+    }
+  }
+}

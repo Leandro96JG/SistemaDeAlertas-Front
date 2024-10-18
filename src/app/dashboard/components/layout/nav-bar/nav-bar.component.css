@@ -3,14 +3,12 @@ nav{
   height: 100%;
   display: flex;
   justify-content: center;
-  padding-right: 50px;
+  padding-top: 90px;
 }
 
 ul{
   display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
+  flex-direction: column
 }
 
 li{
@@ -28,6 +26,7 @@ li{
   width: 30px;
   height: auto;
 }
+
 .active{
   fill: var(--bg-primary);
 }

@@ -13,6 +13,9 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { UserHeaderComponent } from './components/layout/user-header/user-header.component';
 import { NewPlantComponent } from './components/global/new-plant/new-plant.component';
 import { TableAlertComponent } from './components/global/table-alert/table-alert.component';
+import { AccionOptionComponent } from './components/shared/accion-option/accion-option.component';
+import { LenguageOptionComponent } from './components/shared/lenguage-option/lenguage-option.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -26,11 +29,14 @@ import { TableAlertComponent } from './components/global/table-alert/table-alert
     UserHeaderComponent,
     NewPlantComponent,
     TableAlertComponent,
+    AccionOptionComponent,
+    LenguageOptionComponent,
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
     RouterModule,
+    TranslateModule,
   ]
 })
 export class DashboardModule { }
