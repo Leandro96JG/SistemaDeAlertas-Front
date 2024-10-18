@@ -136,6 +136,10 @@ h1,h2,h3,h4,p{
     font-weight:500;
    }
 
+   .button-inicio{
+    display: flex;
+    flex-direction: column;
+   }
 }
 
 
